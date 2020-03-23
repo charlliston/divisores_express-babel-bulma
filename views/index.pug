@@ -1,0 +1,25 @@
+include mixins/cabecalho.pug
+include mixins/divisores.pug
+
+doctype html
+html
+  +cabecalho(titulo)
+  body
+    .container.is-fluid
+      include includes/titulo.pug
+      .columns
+        .column.is-three-quarters
+            .message.is-info
+              .message-header
+              .message-body
+        .column
+            .message.is-primary
+              .message-header
+                p Consultar Divisores
+              .message-body
+                form(action='pesquiseDiv' method='get')
+                  .field
+                    .label numero
+                    .control
+                      input.input(name='numero' type='number' required)
+                  button.button.is-primary(type='submit') Pesquisar

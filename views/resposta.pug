@@ -1,0 +1,25 @@
+include mixins/cabecalho.pug
+include mixins/divisores.pug
+
+doctype html
+html
+  +cabecalho(titulo)
+
+  body
+    .container.is-fluid
+      include includes/titulo.pug
+      .columns
+        .column.is-three-quarters
+            .message.is-info
+              .message-header
+                p= `Divisores de ${numero}`
+              .message-body
+                +divisores(divisores)
+        .column
+            .message.is-primary
+              .message-header
+                p Fazer Nova Pesquisa
+              .message-body
+                form(action='/' method='get')
+                  button.button.is-primary(type='submit') Nova Pesquisa
+  

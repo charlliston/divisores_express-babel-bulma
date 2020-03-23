@@ -1,0 +1,15 @@
+mixin divisores(divisores)
+  if divisores.length == 0
+    .notification.is-warning
+      p Não há divisores.
+  else
+      table.table.is-striped.is-hoverable.is-bordered
+        thead
+          tr
+            th Número
+            th Divisor
+        tbody
+          each numero in divisores
+            tr
+              td= numero
+              td= divisor
