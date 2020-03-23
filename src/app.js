@@ -22,5 +22,4 @@ app.get('/pesquiseDiv', (req, res) => consultaDivisores(req, res))
 
 const server = https.createServer(opcoes, app)
 
-// eslint-disable-next-line no-console
 server.listen(porta, () => console.log(msgNoAr))
