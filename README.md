@@ -1,6 +1,6 @@
 # Desafio Dev. Full Stack
 ### Divisores
-[![Github-Release](https://img.shields.io/badge/versao-v0.1-blue)](https://github.com/charlliston/divisores_express+babel+bulma)
+[![Github-Release](https://img.shields.io/badge/versao-v0.1-blue)](https://github.com/charlliston/divisores_express-babel-bulma)
 
 ###### Sistema web app que recebe um número como entrada e calcula a lista de seus divisores e se o mesmo é um número primo.
 
