@@ -9,4 +9,5 @@ const dados = {
     valor,
     numero
 }
+
 export {dados}

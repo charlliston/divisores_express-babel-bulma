@@ -8,7 +8,6 @@
 				divisores.push(i)
 			}
 		}
-		
 		if (divisores.length <= 2) {
 			return "O número " +numero + " é primo."
 		} else {

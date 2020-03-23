@@ -23,4 +23,5 @@ function consultaDivisores (req, res) {
   }
   res.render('resposta', resposta)
 }
+
 export {consultaInicial, consultaDivisores}

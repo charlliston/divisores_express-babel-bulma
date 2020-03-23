@@ -1,7 +1,6 @@
 import https from 'https'
 import fs from 'fs'
 import path from 'path'
-
 import express from 'express'
 import {consultaInicial, consultaDivisores} from './controle'
 
