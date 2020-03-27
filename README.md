@@ -32,7 +32,7 @@ dividido entre _número_ e _divisores_ | exibe erros caso o usuário não digite
 
 Para executar o sistema é necessário fazer download ou clonar o código fonte:
 
-    https://github.com/charllliston/divisores.git
+    https://github.com/charlliston/divisores.git
 
 
 Depois de baixar/clonar o respositório, digite
